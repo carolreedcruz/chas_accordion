@@ -1,10 +1,19 @@
-html {
-  background: #f2f1f4;
-  color: #19171c;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,500&display=swap');
+
+
+* {
+  margin:0;
+  padding:0;
 }
 
+body {
+  background-color: #34495e;
+  color: white;
+  font-family:Montserrat;
+}
 .description {
   display: none;
+  padding:20px;
 }
 
 .active+.description {
@@ -13,4 +22,27 @@ html {
 
 .title {
  font-weight: bold;
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  line-height: 2.25rem;
+  
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+}
+
+#accordion {
+  width: 90%;
+  max-width: 1000px;
+  margin:2rem auto;
+}
+
+.section {
+  background-color: white;
+  color:black;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgb(0,0,0,0.25);
 }

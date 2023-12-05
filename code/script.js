@@ -23,6 +23,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 
       const accordion = document.getElementById('accordion');
       const sectionDiv = document.createElement('div');
+      sectionDiv.classList.add('section');
       sectionDiv.appendChild(titleDiv);
       sectionDiv.appendChild(bodyDiv);
       accordion.appendChild(sectionDiv);
