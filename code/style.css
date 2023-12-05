@@ -4,9 +4,13 @@ html {
 }
 
 .description {
-  display:none;
+  display: none;
 }
 
-.active + .description { 
-  display:block;
+.active+.description {
+  display: block;
+}
+
+.title {
+ font-weight: bold;
 }
